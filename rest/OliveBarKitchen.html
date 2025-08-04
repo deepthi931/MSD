@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image with Description</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        /* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Left side - Image */
+.image-box {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Right side - Text content */
+.content-box {
+  flex: 1.5;
+  padding: 30px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #e23744;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image-box,
+  .content-box {
+    width: 100%;
+  }
+
+  .content-box {
+    padding: 20px;
+  }
+}
+
+    </style>
+  <div class="container">
+    <!-- Left side: Image -->
+    <div class="image-box">
+      <img src="../r3.avif" alt="Sample Image">
+    </div>
+
+    <!-- Right side: Title + Description -->
+    <div class="content-box">
+      <h1 class="title">Olive Bar & Kitchen</h1>
+      <p class="description">
+        Nestled in a charming bungalow, Olive offers Mediterranean-inspired dishes with a modern twist. Ideal for romantic evenings or weekend brunches, it combines rustic ambiance, wood-fired pizzas, fine wines, and exceptional service in a cozy, elegant setting.
+        </p>
+    </div>
+  </div>
+</body>
+</html>

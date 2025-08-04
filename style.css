@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(245, 230, 230);
+}
+
+/* header css start here */
+header{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+.heading{
+    width: 100%;
+    /* position: relative; */
+    height: auto;
+}
+
+.company_name{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 200px;
+    color: red;
+}
+
+
+input[type=text] {
+    margin-left: 200px;
+    width: 400px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+  }
+
+
+.acc{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 400px;
+}
+
+.login, .signup{
+    display: inline-block;
+}
+
+.login{
+    margin-right: 20px;
+}
+
+.logo{
+    width: auto;
+    height: 40px;
+}
+.second{ 
+    margin-top: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 3;
+}
+
+.din_img{
+    margin-left: 200px;
+}
+.del_img{
+    margin-left: 20px;
+}
+
+.tit{
+    position: relative;
+    bottom: 10px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(91, 88, 88);
+}
+
+/* end */
+
+/* third- collection section start here */
+.third{
+    background-color: rgb(233, 229, 229);
+}
+.coll_container{
+    height: 400px;
+    margin: 10px 180px 0px 180px;
+    padding-top: 20px;
+}
+
+.carder{
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+}
+.coll_image{
+    pointer-events: none;
+    border-radius: 10px;
+    height: 300px;
+    width: 270px;
+}
+
+.coll_tit{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.coll_para{
+    z-index: 2;
+    position: relative;  
+    padding-bottom: 5px;
+}
+.para1{
+    margin-left: 5px;
+}
+.para2{ 
+    z-index: 2;
+    position: absolute;
+    right: 100px;
+}
+
+.img_tit1{
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+}
+.img_tit2{
+    z-index: 2;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 20px;
+    bottom: 22px;
+}
+/* End */
+
+/* card css start here */
+
+.all_card{
+    margin: 50px 180px 50px 180px ;
+
+
+}
+.card{
+    display: inline-block;
+    cursor: pointer;
+    border: 10px rgb(245, 230, 230) solid;
+    border-radius: 10px;
+}
+
+.card:hover{
+    background-color: white;
+    /* border: 10px white solid; */
+    border-color: white;
+}
+
+.box{
+    display: inline-block;
+}
+.img{
+    pointer-events: none;
+}
+
+.image{
+    position: relative;
+}
+
+.off{
+    background-color: rgba(171, 18, 112, 0.511);
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    padding: 5px;
+}
+
+
+.img{
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.restaurant{
+    position: relative;
+}
+
+.restaurant_name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.rating{
+    background-color: green;
+    color: white;
+    position: absolute;
+    right: 5px;
+    border-radius: 5px;
+    padding: 3px;   
+}
+
+.food{
+    position: relative;
+    font-size: 15px;
+    color: rgb(69, 68, 68);
+}
+.price{
+    position: absolute;
+    right: 5px;
+}
+
+.location{
+    position: relative;
+    font-size: 15px;
+    color: rgb(135, 134, 134);
+}
+.distance{
+    position: absolute;
+    right: 5px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+}
